@@ -137,6 +137,7 @@
 $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
 .v-card {
   margin: 8px auto;
+  border-radius: 20px;
 }
 
 .fab-tip {
@@ -229,13 +230,13 @@ export default {
       };
     },
     fab_icon() {
-      return [this.$vuetify.theme.dark ? 'white--text' : 'pink--text text--lighten-3'];
+      return [this.$vuetify.theme.dark ? 'white--text' : 'amber--text text--lighten-3'];
     },
     fab_color() {
-      return [this.$vuetify.theme.dark ? 'pink darken-1' : 'white'];
+      return [this.$vuetify.theme.dark ? 'amber darken-1' : 'white'];
     },
     speed_dial_color: function () {
-      return [this.$vuetify.theme.dark ? 'pink darken-1' : 'pink lighten-2'];
+      return [this.$vuetify.theme.dark ? 'amber darken-1' : 'amber lighten-2'];
     },
     current_locale() {
       return this.$i18n.locale;

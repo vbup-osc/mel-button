@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     return_to_official() {
-      window.location.href = 'https://sakuramiko.org';
+      window.location.href = 'https://yozoramel.org';
     }
   }
 };

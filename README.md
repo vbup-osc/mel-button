@@ -2,7 +2,7 @@
 
 ### Nya Hello ~!
 
-### https://sakuramiko.org
+### https://yozoramel.org
 
 相关链接 / 関連URL / Related Links:
 
@@ -66,7 +66,7 @@ This project is modified based on the [Fubuki button](https://github.com/voosc/f
 
 ## 特别感谢
 
-#### 音频资源由赌鬼巫女保护协会提供。
+#### 音频资源由夜空梅露的樱桃汁工厂提供。
 
 [他们的 Bilibili 频道](https://space.bilibili.com/487446531)
 

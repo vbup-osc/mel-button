@@ -32,7 +32,7 @@ export default {
     }
   },
   mounted() {
-    const api = 'https://sakuramiko.org/links.json';
+    const api = 'https://yozoramel.org/links.json';
     this.$axios
       .get(api)
       .then(res => {

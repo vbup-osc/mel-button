@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "みこボタン ( - △ - )",
-    "description": "新しいさくらみこのボイスボタン",
+    "title": "メルボタン (  *`꒳´ * )~❤",
+    "description": "新しい夜空メルのボイスボタン",
     "index": "ホームページ",
     "links": "友情リンク",
     "about": "について",
@@ -34,8 +34,8 @@
     "overlap": "音声を重ねる",
     "random": "自動ランダム再生",
     "repeat": "ループ",
-    "full_name": "さくらみこ",
-    "overlap_title": "多くのみこの音声"
+    "full_name": "夜空メル",
+    "overlap_title": "多くのメルの音声"
   },
   "dev": {
     "title": "開発モードのWebサイトにアクセスしています",

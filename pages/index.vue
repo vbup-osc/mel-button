@@ -274,7 +274,7 @@ export default {
   methods: {
     async fetch_live_data() {
       const query_url = 'https://api.holotools.app/v1/live?max_upcoming_hours=336';
-      const channel = 12; // HoloAPI ID
+      const channel = 1; // HoloAPI ID
       this.$axios
         .get(query_url, { params: { channel_id: channel } })
         .then(res => {
@@ -293,7 +293,7 @@ export default {
       return require('dayjs')(stamp).format('YYYY/M/DD HH:mm');
     },
     youtube() {
-      this.$axios.get('https://api.holotools.app/v1/channels/youtube/UC-hM6YJuNYVAmUWxeIr9FeA').then(response => {
+      this.$axios.get('https://api.holotools.app/v1/channels/youtube/UCD8HOxPs4Xvsm8H0ZxXGiBw').then(response => {
         this.youtubeData = response.data;
       });
     },
@@ -308,16 +308,7 @@ export default {
             res +
             '」のランダムオーディオは「' +
             title +
-            '」です！ より多くのオーディオを聞くには、「みこボタン」のWebサイトにアクセスしてください~ https://sakuramiko.org'
-        );
-      } else if (this.current_locale === 'en') {
-        window.open(
-          'https://twitter.com/intent/tweet?text=' +
-            '%23みこボタン %23さくらみこ Today,' +
-            res +
-            "'s random audio is %22" +
-            title +
-            '%22! Visit Miko Button Website For More Audio! https://sakuramiko.org'
+            '」です！ より多くのオーディオを聞くには、「みこボタン」のWebサイトにアクセスしてください~ https://yozoramel.org'
         );
       } else {
         window.open(
@@ -326,7 +317,7 @@ export default {
             res +
             '”的随机音频是“' +
             title +
-            '”！ 访问樱按钮网站聆听更多音频 https://sakuramiko.org'
+            '”！ 访问樱按钮网站聆听更多音频 https://yozoramel.org'
         );
       }
     },
@@ -435,7 +426,7 @@ export default {
   head() {
     return {
       title: this.$t('site.title'),
-      link: [{ rel: 'canonical', href: 'https://sakuramiko.org' }]
+      link: [{ rel: 'canonical', href: 'https://yozoramel.org' }]
     };
   }
 };

@@ -136,7 +136,7 @@
 <style lang="scss" scoped>
 $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
 .v-card {
-  border-radius: 20px;
+  border-radius: 20px !important;
   margin: 8px auto;
 }
 

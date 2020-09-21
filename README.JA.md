@@ -6,9 +6,9 @@
 
 相关链接 / 関連URL / Related Links:
 
-* [Sakura Miko's Youtube channel](https://www.youtube.com/channel/UC-hM6YJuNYVAmUWxeIr9FeA)
+* [Yozora Mel's Youtube channel](https://www.youtube.com/channel/UCD8HOxPs4Xvsm8H0ZxXGiBw)
 
-* [Sakura Miko's Twitter](https://twitter.com/sakuramiko35)
+* [Yozora Mel's Twitter](https://twitter.com/yozoramel)
 
 ## 参与完善本项目
 
@@ -32,13 +32,13 @@
 
 修改音频之后请删除原音频文件。
 
-**推荐使用 [voices.json 编辑工具](https://aka.blw.moe/voiceditor) 进行编辑。**
+**推荐使用 [voices.json 编辑工具](https://editor.vbup.org) 进行编辑。**
 
 ### 参与翻译
 
-主程序翻译在 [assets/locales](https://github.com/voosc/miko-button/tree/master/assets/locales) 中的三个以语言名命名的 js 文件中。
+主程序翻译在 [assets/locales](https://github.com/voosc/mel-button/tree/master/assets/locales) 中的三个以语言名命名的 js 文件中。
 
-语音的翻译在 [assets/voices.json](https://github.com/voosc/miko-button/tree/master/assets/voices.json) 中。
+语音的翻译在 [assets/voices.json](https://github.com/voosc/mel-button/tree/master/assets/voices.json) 中。
 
 ## 部署本地开发环境
 
@@ -56,7 +56,7 @@
 
 ## LICENSE
 
-This project is modified based on the [Fubuki button](https://github.com/voosc/fubuki-button).
+This project is modified based on the [Miko button](https://github.com/voosc/miko-button).
 
 程序部分: MIT
 
@@ -68,18 +68,14 @@ This project is modified based on the [Fubuki button](https://github.com/voosc/f
 
 #### 音频资源由夜空梅露的樱桃汁工厂提供。
 
-[他们的 Bilibili 频道](https://space.bilibili.com/487446531)
+[他们的 Bilibili 频道](https://space.bilibili.com/490670563/)
 
 #### 本项目由 [Vercel](https://vercel.com/) 强力驱动。
 
 [![Vercel Logo](https://cdn.jsdelivr.net/gh/paizi/vue-test/vercel.svg)](https://vercel.com)
 
-#### 自豪的使用 [BrowserStack](https://www.browserstack.com/)。
+以及所有支持这个项目的朋友，你们的鼓励是我们孜孜不倦的源动力，谢谢你们。
 
-[![BrowserStack Logo](https://i.loli.net/2017/09/27/59cbc16b0f8b4.png)](https://www.browserstack.com/)
-
-以及所有支持这个项目的朋友，你们的鼓励是我孜孜不倦的源动力，谢谢你们。
-
-[![GitHub Contributors](https://contributors-img.web.app/image?repo=voosc/miko-button)](https://github.com/voosc/miko-button/graphs/contributors)
+[![GitHub Contributors](https://contributors-img.web.app/image?repo=voosc/mel-button)](https://github.com/voosc/mel-button/graphs/contributors)
 
 虚位以待...

@@ -304,20 +304,20 @@ export default {
       if (this.current_locale === 'ja') {
         window.open(
           'https://twitter.com/intent/tweet?text=' +
-            '%23みこボタン %23さくらみこ 今日、「' +
+            '%23メルボタン %23夜空メル %23メルArt 今日、「' +
             res +
             '」のランダムオーディオは「' +
             title +
-            '」です！ より多くのオーディオを聞くには、「みこボタン」のWebサイトにアクセスしてください~ https://yozoramel.org'
+            '」です！ より多くのオーディオを聞くには、「メルボタン」のWebサイトにアクセスしてください~ https://yozoramel.org'
         );
       } else {
         window.open(
           'https://twitter.com/intent/tweet?text=' +
-            '%23みこボタン %23さくらみこ 今天，“' +
+            '%23メルボタン %23夜空メル %23メルArt 今天，“' +
             res +
             '”的随机音频是“' +
             title +
-            '”！ 访问樱按钮网站聆听更多音频 https://yozoramel.org'
+            '”！ 访问梅露按钮网站聆听更多音频 https://yozoramel.org'
         );
       }
     },

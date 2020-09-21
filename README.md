@@ -6,9 +6,9 @@
 
 相关链接 / 関連URL / Related Links:
 
-* [Sakura Miko's Youtube channel](https://www.youtube.com/channel/UC-hM6YJuNYVAmUWxeIr9FeA)
+* [Yozora Mel's Youtube channel](https://www.youtube.com/channel/UC-hM6YJuNYVAmUWxeIr9FeA)
 
-* [Sakura Miko's Twitter](https://twitter.com/sakuramiko35)
+* [Yozora Mel's Twitter](https://twitter.com/sakuramiko35)
 
 ## 参与完善本项目
 

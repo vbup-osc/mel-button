@@ -3,90 +3,162 @@
     {
       "group_name": "daily",
       "group_description": {
-        "zh": "▌这里是类1",
+        "zh": "▌日常",
         "ja": "▌日常",
-        "en": "▌Daily"
+        "en": ""
       },
       "voice_list": [
         {
-          "name": "1",
-          "path": "1",
+          "name": "mel-1",
+          "path": "mel-1.mp3",
           "description": {
-            "zh": "这里是按钮1",
-            "ja": "thank you ありがと",
-            "en": "Thank you,thank you"
+            "zh": "被说是涩涩的呢",
+            "ja": "HHHだって",
+            "en": ""
           }
         },
         {
-          "name": "2",
-          "path": "2",
+          "name": "mel-2",
+          "path": "mel-2.mp3",
           "description": {
-            "zh": "这里是按钮2",
-            "ja": "thank you ありがと",
-            "en": "Thank you,thank you"
+            "zh": "不~要",
+            "ja": "い～や",
+            "en": ""
           }
         },
         {
-          "name": "3",
-          "path": "3",
+          "name": "mel-3",
+          "path": "mel-3.mp3",
           "description": {
-            "zh": "这里是按钮3",
-            "ja": "thank you ありがと",
-            "en": "Thank you,thank you"
+            "zh": "来多亿点",
+            "ja": "いっぱい出して",
+            "en": ""
           }
         },
         {
-          "name": "4",
-          "path": "4",
+          "name": "mel-4",
+          "path": "mel-4.mp3",
           "description": {
-            "zh": "这里是按钮4",
-            "ja": "thank you ありがと",
-            "en": "Thank you,thank you"
+            "zh": "嗯嗯嗯(委屈）",
+            "ja": "うんんん",
+            "en": ""
           }
         },
         {
-          "name": "5",
-          "path": "5",
+          "name": "mel-5",
+          "path": "mel-5.mp3",
           "description": {
-            "zh": "这里是按钮5",
-            "ja": "thank you ありがと",
-            "en": "Thank you,thank you"
+            "zh": "求求你了",
+            "ja": "お願い",
+            "en": ""
           }
         },
         {
-          "name": "6",
-          "path": "6",
+          "name": "mel-6",
+          "path": "mel-6.mp3",
           "description": {
-            "zh": "这里是按钮6",
-            "ja": "thank you ありがと",
-            "en": "Thank you,thank you"
+            "zh": "不行的啦真是的",
+            "ja": "だめだよ もうう",
+            "en": ""
           }
         },
         {
-          "name": "7",
-          "path": "7",
+          "name": "mel-7",
+          "path": "mel-7.mp3",
           "description": {
-            "zh": "这里是按钮7",
-            "ja": "thank you ありがと",
-            "en": "Thank you,thank you"
+            "zh": "笨蛋笨蛋笨蛋笨蛋",
+            "ja": "ばかばかばかばか",
+            "en": ""
           }
         },
         {
-          "name": "8",
-          "path": "8",
+          "name": "mel-8",
+          "path": "mel-8.mp3",
           "description": {
-            "zh": "这里是按钮8",
-            "ja": "thank you ありがと",
-            "en": "Thank you,thank you"
+            "zh": "大家才更H呢",
+            "ja": "みんなのほうがHだよ",
+            "en": ""
           }
         },
         {
-          "name": "9",
-          "path": "9",
+          "name": "mel-9",
+          "path": "mel-9.mp3",
           "description": {
-            "zh": "这里是按钮9",
-            "ja": "ぺっ！ぺっ",
-            "en": "Bah"
+            "zh": "真是的 输了啦",
+            "ja": "もう　負けた",
+            "en": ""
+          }
+        },
+        {
+          "name": "mel-10",
+          "path": "mel-10.mp3",
+          "description": {
+            "zh": "真是的",
+            "ja": "もうう",
+            "en": ""
+          }
+        },
+        {
+          "name": "mel-11",
+          "path": "mel-11.mp3",
+          "description": {
+            "zh": "真是的",
+            "ja": "もううう",
+            "en": ""
+          }
+        },
+        {
+          "name": "mel-12",
+          "path": "mel-12.mp3",
+          "description": {
+            "zh": "再多来点",
+            "ja": "もっとして",
+            "en": ""
+          }
+        },
+        {
+          "name": "mel-13",
+          "path": "mel-13.mp3",
+          "description": {
+            "zh": "不要了啦",
+            "ja": "やめて",
+            "en": ""
+          }
+        },
+        {
+          "name": "mel-14",
+          "path": "mel-14.mp3",
+          "description": {
+            "zh": "知...知道了",
+            "ja": "わ...わかった",
+            "en": ""
+          }
+        },
+        {
+          "name": "mel-15",
+          "path": "mel-15.mp3",
+          "description": {
+            "zh": "巧可老师",
+            "ja": "チョコ先生",
+            "en": ""
+          }
+        },
+        {
+          "name": "mel-16",
+          "path": "mel-16.mp3",
+          "description": {
+            "zh": "梅露满足啦",
+            "ja": "メルは満足です",
+            "en": ""
+          }
+        },
+        {
+          "name": "mel-17",
+          "path": "mel-17.MP3",
+          "description": {
+            "zh": "我可不会饶过你的",
+            "ja": "許さないからなあ",
+            "en": ""
           }
         }
       ]

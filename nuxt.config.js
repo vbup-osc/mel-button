@@ -40,7 +40,7 @@ export default {
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@samuimomijiyuki' }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: 'https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f31f.svg' }]
   },
   /*
    ** Customize the progress-bar color

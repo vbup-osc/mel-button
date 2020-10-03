@@ -124,7 +124,7 @@
           <div style="vertical-align: middle;">
             <span>&copy;</span>
             <span>
-              <a href="https://space.bilibili.com/487446531" target="_blank" rel="noreferrer">
+              <a href="https://space.bilibili.com/490670563" target="_blank" rel="noreferrer">
                 {{ $t('site.footer.union') }}
               </a>
             </span>

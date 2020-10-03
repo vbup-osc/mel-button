@@ -1,81 +1,77 @@
-# 樱按钮 / みこボタン / Miko Button
-
-### Nya Hello ~!
+# メルボタン / Mel Button
 
 ### https://yozoramel.org
 
-相关链接 / 関連URL / Related Links:
+関連URL / Related Links:
 
 * [Yozora Mel's Youtube channel](https://www.youtube.com/channel/UCD8HOxPs4Xvsm8H0ZxXGiBw)
 
 * [Yozora Mel's Twitter](https://twitter.com/yozoramel)
 
-## 参与完善本项目
+## プロジェクトのリファインに参加
 
-**Rome was not built in a day.** 
+この未熟なプロジェクトの改良に参加したり、あなたの意見をお聞かせください。
 
-欢迎参与完善这个并不成熟的项目，或者为我们提出宝贵的意见！
+連絡先: Eメール： `support@vbup.org`
 
-联系方式：Email: `support@vbup.org`
+このプロジェクトを改善したい場合は、このプロジェクトをForkして変更を加え、変更後にこのプロジェクトでPull Requestを起動してください。
 
-如有意完善此项目，请 Fork 本项目进行修改，完成修改后在本项目中发起一个 Pull Request。
+### オーディオの追加や変更
 
-### 添加或修改音频
+**簡潔な説明**：すべてのオーディオ情報は[assets/voices.json](https://github.com/voosc/miko-button/tree/master/assets/voices.json)に格納されています，オーディオを追加または修正するには、対応するファイルを同時に修正する必要があります。
 
-**简述**：所有的音频信息都存储在 [assets/voices.json](https://github.com/voosc/miko-button/tree/master/assets/voices.json) 中，要添加或修改音频，你需要同时修改对应的文件。
+音声は常にmp3形式で、[static/voices](https://github.com/voosc/miko-button/tree/master/static/voices)に保存されています。対応するURLは `voices/` です。
 
-音频一律为mp3格式，存储在 [static/voices](https://github.com/voosc/miko-button/tree/master/static/voices) 中。对应的URL为 `voices/`。
+追加された新しいオーディオは、現在標準のITU-R BS.1770-3、ターゲットラウドネス-24LUFS、公差2LU、最大実際のピークレベル-2dBTPを使用して、Adobe Auditionに似たソフトウェアを使用して、最初にラウドネスを一致させる必要があります。
 
-添加的新音频请先使用类似 Adobe Audition 的软件进行响度匹配，目前使用的标准为 ITU-R BS.1770-3，目标响度 -24LUFS，容差 2LU，最高实际峰值电平 -2dBTP。
+既存のオーディオを修正する必要がある場合は、ブラウザのキャッシュの問題を避けるために、元のオーディオファイルを削除し、新しいオーディオファイルの名前を変更することをお勧めします。
 
-如果需要对现有音频进行修改，建议将原音频文件删除，重新命名一个新文件，这样可以避免浏览器缓存问题。
+音声を修正した後は、元の音声ファイルを削除してください。
 
-修改音频之后请删除原音频文件。
+**編集には[voice.json編集ツール](https://editor.vbup.org)の利用をお勧めします。**
 
-**推荐使用 [voices.json 编辑工具](https://editor.vbup.org) 进行编辑。**
+### 翻訳への参加
 
-### 参与翻译
+メインのプログラムは、[assets/locales](https://github.com/voosc/mel-button/tree/master/assets/locales)にある3つの言語名のjsファイルで翻訳されています。
 
-主程序翻译在 [assets/locales](https://github.com/voosc/mel-button/tree/master/assets/locales) 中的三个以语言名命名的 js 文件中。
+音声の翻訳は[assets/voices.json](https://github.com/voosc/mel-button/tree/master/assets/voices.json)にあります。
 
-语音的翻译在 [assets/voices.json](https://github.com/voosc/mel-button/tree/master/assets/voices.json) 中。
+## ローカル開発環境のデプロイ
 
-## 部署本地开发环境
+このプロジェクトはVue + NuxtJS + Vuetifyを使って開発しています。
 
-本项目是使用 Vue + NuxtJS + Vuetify 开发的。
+ローカル開発環境をデプロイするには、まず最新版のNodeとYarnパッケージマネージャをインストールします。 そして、以下の手順に従ってください。
 
-要部署本地开发环境，请首先安装最新版本的 Node 和 Yarn 包管理器。然后，请按照下列步骤操作：
+1.コードをローカルにフォークしてクローンします。
 
-1.Fork 并 Clone 代码到本地。
+2.コードのあるディレクトリに移動して `yarn` を実行し、依存関係をインストールします。
 
-2.进入代码所在目录，运行 `yarn` 安装依赖。
+3.`yarn dev` を実行してローカル開発サーバを起動すると、プロジェクトが `localhost:3000` に一時的にデプロイされる。 ローカルの開発サーバーは、コードが修正されている間に変更を即座に更新できるようになります。
 
-3.运行 `yarn dev`，启动本地开发服务器，项目将被临时部署在 `localhost:3000` 上。在代码修改过程中，本地开发服务器可以即时更新修改结果。
-
-4.要编译可用于部署的文件，请运行 `yarn generate`，这将在 `dist` 目录生成完全静态的文件。编译完成后，您可以直接将整个 `dist` 目录部署至 Github Pages 等静态文件托管服务上。
+4.デプロイ用のファイルをコンパイルするには、`yarn generate`を実行すると、`dist`ディレクトリに完全に静的なファイルが生成されます。 コンパイルしたら、`dist` ディレクトリ全体を Github Pages のような静的ファイルホスティングサービスに直接デプロイすることができます。
 
 ## LICENSE
 
-This project is modified based on the [Miko button](https://github.com/voosc/miko-button).
+このプロジェクトは[VBUP(VOOSC)](https://space.bilibili.com/345725508)によるものです。
 
-程序部分: MIT
+プログラムパート：MIT
 
-音频部分: [hololive 二次创作条款](https://www.hololive.tv/terms)
+音声パート：[ホロライブ二次的創作ライセンス規約](https://www.hololive.tv/terms)
 
-本项目为爱好者作品，与 hololive 官方没有关联。
+この企画は趣味人の作品であり、ホロライブとは正式には提携していません。
 
-## 特别感谢
+## とくれい
 
-#### 音频资源由夜空梅露的樱桃汁工厂提供。
+#### 音声提供：夜空メルのアセロラジュース工場。
 
-[他们的 Bilibili 频道](https://space.bilibili.com/490670563/)
+[彼らのビリビリチャンネル](https://space.bilibili.com/490670563/)
 
-#### 本项目由 [Vercel](https://vercel.com/) 强力驱动。
+#### このプロジェクトは、[Vercel](https://vercel.com/)によって強く推進されています。
 
 [![Vercel Logo](https://cdn.jsdelivr.net/gh/paizi/vue-test/vercel.svg)](https://vercel.com)
 
-以及所有支持这个项目的朋友，你们的鼓励是我们孜孜不倦的源动力，谢谢你们。
+そして、このプロジェクトを支えてくださった皆様の励ましが、私たちのたゆまぬ努力の原動力となっています、ありがとうございました。
 
 [![GitHub Contributors](https://contributors-img.web.app/image?repo=voosc/mel-button)](https://github.com/voosc/mel-button/graphs/contributors)
 
-虚位以待...
+空席待ち...

@@ -18,9 +18,9 @@
 
 ### オーディオの追加や変更
 
-**簡潔な説明**：すべてのオーディオ情報は[assets/voices.json](https://github.com/voosc/miko-button/tree/master/assets/voices.json)に格納されています，オーディオを追加または修正するには、対応するファイルを同時に修正する必要があります。
+**簡潔な説明**：すべてのオーディオ情報は[assets/voices.json](https://github.com/voosc/mel-button/tree/master/assets/voices.json)に格納されています，オーディオを追加または修正するには、対応するファイルを同時に修正する必要があります。
 
-音声は常にmp3形式で、[static/voices](https://github.com/voosc/miko-button/tree/master/static/voices)に保存されています。対応するURLは `voices/` です。
+音声は常にmp3形式で、[static/voices](https://github.com/voosc/mel-button/tree/master/static/voices)に保存されています。対応するURLは `voices/` です。
 
 追加された新しいオーディオは、現在標準のITU-R BS.1770-3、ターゲットラウドネス-24LUFS、公差2LU、最大実際のピークレベル-2dBTPを使用して、Adobe Auditionに似たソフトウェアを使用して、最初にラウドネスを一致させる必要があります。
 

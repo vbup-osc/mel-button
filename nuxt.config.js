@@ -111,7 +111,7 @@ export default {
       skipWaiting: true,
       runtimeCaching: [
         {
-          urlPattern: 'https://cdn.jsdelivr.net/gh/voosc/miko-button@master/static/voices/*'
+          urlPattern: 'https://cdn.jsdelivr.net/gh/voosc/mel-button@master/static/voices/*'
         }
       ]
     }

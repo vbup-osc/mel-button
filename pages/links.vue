@@ -38,7 +38,7 @@ export default {
       .then(res => {
         this.links = this.shuffle(
           res.data.filter(function (el) {
-            return el.title !== 'miko';
+            return el.title !== 'mel';
           })
         );
       })

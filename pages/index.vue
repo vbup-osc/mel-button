@@ -215,7 +215,7 @@ export default {
   computed: {
     voice_host() {
       if (process.env.NODE_ENV === 'production')
-        return 'https://cdn.jsdelivr.net/gh/voosc/miko-button@master/static/voices/';
+        return 'https://cdn.jsdelivr.net/gh/voosc/mel-button@master/static/voices/';
       else return '/voices/';
     },
     dark_text() {

@@ -136,7 +136,7 @@
             </span>
             <v-btn
               icon
-              href="https://github.com/voosc/miko-button"
+              href="https://github.com/voosc/mel-button"
               target="_blank"
               style="vertical-align: middle;"
               rel="noreferrer"

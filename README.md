@@ -52,7 +52,7 @@
 
 ## LICENSE
 
-This project is made by [VBUP（VOOSC)](https://space.bilibili.com/345725508).
+本项目由 [VBUP（VOOSC)](https://space.bilibili.com/345725508) 制作。
 
 程序部分: MIT
 

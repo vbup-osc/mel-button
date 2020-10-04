@@ -36,7 +36,7 @@ export default {
         property: 'og:description',
         content: '夜空メルのボイスボタン。'
       },
-      { hid: 'og:image', property: 'og:image', content: 'https://yozoramel.org/img/og_common.jpg' },
+      { hid: 'og:image', property: 'og:image', content: 'https://yozoramel.org/img/tweet.jpg' },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@samuimomijiyuki' }
     ],

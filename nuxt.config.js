@@ -11,6 +11,7 @@ export default {
   },
   /*
    ** Headers of the page
+   * TODO
    */
   head: {
     title: 'メルボタン',
@@ -73,6 +74,10 @@ export default {
    */
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
+    /**
+     * TODO
+     * 颜色
+     */
     theme: {
       dark: false,
       themes: {
@@ -102,6 +107,10 @@ export default {
     }
   },
   pwa: {
+    /**
+     * TODO
+     * PWA
+     */
     manifest: {
       start_url: '/?standalone=true',
       name: 'メルボタン'

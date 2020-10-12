@@ -34,6 +34,9 @@ export default {
     }
   },
   methods: {
+    /**
+     * TODO
+     */
     return_to_official() {
       window.location.href = 'https://yozoramel.org';
     }

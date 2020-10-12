@@ -214,6 +214,10 @@ export default {
   },
   computed: {
     voice_host() {
+      /**
+       * TODO
+       * CDN地址，没有的话就删掉
+       */
       if (process.env.NODE_ENV === 'production')
         return 'https://cdn.jsdelivr.net/gh/voosc/mel-button@master/static/voices/';
       else return '/voices/';
@@ -274,6 +278,10 @@ export default {
   methods: {
     async fetch_live_data() {
       const query_url = 'https://api.holotools.app/v1/live?max_upcoming_hours=336';
+      /**
+       * TODO
+       * HoloAPI
+       */
       const channel = 1; // HoloAPI ID
       this.$axios
         .get(query_url, { params: { channel_id: channel } })
@@ -293,6 +301,10 @@ export default {
       return require('dayjs')(stamp).format('YYYY/M/DD HH:mm');
     },
     youtube() {
+      /**
+       * TODO
+       * 油管订阅数，需要修改ID
+       */
       this.$axios.get('https://api.holotools.app/v1/channels/youtube/UCD8HOxPs4Xvsm8H0ZxXGiBw').then(response => {
         this.youtubeData = response.data;
       });
@@ -301,6 +313,10 @@ export default {
       let random_list = this.groups[this.get_random_int(this.groups.length)].voice_list;
       var title = random_list[this.get_random_int(random_list.length)].description[this.current_locale];
       var res = document.getElementById('share').value;
+      /**
+       * TODO
+       * 每日随机，改文案，改url
+       */
       if (this.current_locale === 'ja') {
         window.open(
           'https://twitter.com/intent/tweet?text=' +
@@ -369,6 +385,10 @@ export default {
           title: this.overlap ? this.$t('control.overlap_title') : item.description[this.current_locale],
           artist: this.$t('control.full_name'),
           album: this.$t('site.title') + '( - △ - )',
+          /**
+           * TODO
+           * mediaSession显示的图片
+           */
           artwork: [{ src: '/img/media-cover.jpg', sizes: '128x128', type: 'image/jpeg' }]
         };
         navigator.mediaSession.metadata = new window.MediaMetadata(metadata);
@@ -423,6 +443,9 @@ export default {
       this.$bus.$emit('abort_play');
     }
   },
+  /**
+   * TODO
+   */
   head() {
     return {
       title: this.$t('site.title'),

@@ -21,6 +21,9 @@ export default {
       }
     }
   },
+  /**
+   * TODO
+   */
   head() {
     return {
       title: this.$t('site.about') + ' - ' + this.$t('site.title'),

@@ -21,13 +21,22 @@ export default {
       {
         hid: 'description',
         name: 'description',
+        /**
+        * TODO
+        */
         content: '夜空メル　ボイスボタン; 夜空梅露的语音按钮'
       },
       {
         hid: 'keywords',
         name: 'keywords',
+        /**
+        * TODO
+        */
         content: 'メルボタン,MEL BUTTON,梅露按钮,hololive,Yozora Mel,夜空メル,夜空梅露,语音按钮,ボイスボタン'
       },
+      /**
+        * TODO
+        */
       { hid: 'og:site_name', property: 'og:site_name', content: 'メルボタン' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'https://yozoramel.org' },
@@ -35,12 +44,21 @@ export default {
       {
         hid: 'og:description',
         property: 'og:description',
+        /**
+        * TODO
+        */
         content: '夜空メルのボイスボタン。'
       },
+      /**
+        * TODO
+        */
       { hid: 'og:image', property: 'og:image', content: 'https://yozoramel.org/img/tweet.jpg' },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@samuimomijiyuki' }
     ],
+    /**
+        * TODO
+        */
     link: [{ rel: 'icon', type: 'image/x-icon', href: 'https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/1f31f.svg' }]
   },
   /*
@@ -120,6 +138,9 @@ export default {
       skipWaiting: true,
       runtimeCaching: [
         {
+          /**
+        * TODO
+        */
           urlPattern: 'https://cdn.jsdelivr.net/gh/voosc/mel-button@master/static/voices/*'
         }
       ]
@@ -134,6 +155,9 @@ export default {
   },
   sitemap: {
     path: '/sitemap.xml',
+    /**
+        * TODO
+        */
     hostname: 'https://yozoramel.org',
     routes: [
       {

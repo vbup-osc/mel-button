@@ -135,6 +135,7 @@
                 {{ $t('site.footer.voosc') }}
               </a>
             </span>
+            <!-- TODO -->
             <v-btn
               icon
               href="https://github.com/voosc/mel-button"
@@ -248,7 +249,7 @@ export default {
           title: 'Youtube',
           to: 'https://www.youtube.com/channel/UCD8HOxPs4Xvsm8H0ZxXGiBw'
         },
-        {
+        {/*TODO*/
           icon: '/img/twitter-fill.svg',
           title: 'Twitter',
           to: 'https://twitter.com/yozoramel'

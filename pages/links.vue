@@ -39,9 +39,9 @@ export default {
   },
   mounted() {
     /**
-             * TODO
-             * 修改API
-             */
+     * TODO
+     * 修改API
+     */
     const api = 'https://yozoramel.org/links.json';
     this.$axios
       .get(api)

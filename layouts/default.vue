@@ -249,7 +249,8 @@ export default {
           title: 'Youtube',
           to: 'https://www.youtube.com/channel/UCD8HOxPs4Xvsm8H0ZxXGiBw'
         },
-        {/*TODO*/
+        {
+          /*TODO*/
           icon: '/img/twitter-fill.svg',
           title: 'Twitter',
           to: 'https://twitter.com/yozoramel'

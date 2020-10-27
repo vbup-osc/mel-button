@@ -244,22 +244,22 @@ export default {
        * 各种外链
        */
       nav_items: [
-        {
-          icon: '/img/youtube-fill.svg',
-          title: 'Youtube',
-          to: 'https://www.youtube.com/channel/UCD8HOxPs4Xvsm8H0ZxXGiBw'
-        },
-        {
-          /*TODO*/
-          icon: '/img/twitter-fill.svg',
-          title: 'Twitter',
-          to: 'https://twitter.com/yozoramel'
-        },
-        {
-          icon: '/img/bilibili-fill.svg',
-          title: 'Bilibili',
-          to: 'https://space.bilibili.com/389856447'
-        }
+        // {
+        //   icon: '/img/youtube-fill.svg',
+        //   title: 'Youtube',
+        //   to: 'https://www.youtube.com/channel/UCD8HOxPs4Xvsm8H0ZxXGiBw'
+        // },
+        // {
+        //   /*TODO*/
+        //   icon: '/img/twitter-fill.svg',
+        //   title: 'Twitter',
+        //   to: 'https://twitter.com/yozoramel'
+        // },
+        // {
+        //   icon: '/img/bilibili-fill.svg',
+        //   title: 'Bilibili',
+        //   to: 'https://space.bilibili.com/389856447'
+        // }
       ],
       external_cn: [
         {

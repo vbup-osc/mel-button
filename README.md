@@ -2,11 +2,11 @@
 
 ### https://yozoramel.org
 
-相关链接 / Related Links:
+<!-- 相关链接 / Related Links:
 
 * [Yozora Mel's Youtube channel](https://www.youtube.com/channel/UCD8HOxPs4Xvsm8H0ZxXGiBw)
 
-* [Yozora Mel's Twitter](https://twitter.com/yozoramel)
+* [Yozora Mel's Twitter](https://twitter.com/yozoramel) -->
 
 ## 参与完善本项目
 
@@ -56,7 +56,7 @@
 
 程序部分: MIT
 
-音频部分: [hololive 二次创作条款](https://www.hololive.tv/terms)
+<!-- 音频部分: [hololive 二次创作条款](https://www.hololive.tv/terms) -->
 
 本项目为爱好者作品，与 hololive 官方没有关联。
 

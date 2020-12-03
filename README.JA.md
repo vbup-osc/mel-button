@@ -1,12 +1,12 @@
 # メルボタン / Mel Button
 
 ### https://yozoramel.org
-
+<!-- 
 関連URL / Related Links:
 
 * [Yozora Mel's Youtube channel](https://www.youtube.com/channel/UCD8HOxPs4Xvsm8H0ZxXGiBw)
 
-* [Yozora Mel's Twitter](https://twitter.com/yozoramel)
+* [Yozora Mel's Twitter](https://twitter.com/yozoramel) -->
 
 ## プロジェクトのリファインに参加
 
@@ -56,7 +56,7 @@
 
 プログラムパート：MIT
 
-音声パート：[ホロライブ二次的創作ライセンス規約](https://www.hololive.tv/terms)
+<!-- 音声パート：[ホロライブ二次的創作ライセンス規約](https://www.hololive.tv/terms) -->
 
 この企画は趣味人の作品であり、ホロライブとは正式には提携していません。
 

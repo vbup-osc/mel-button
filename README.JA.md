@@ -54,7 +54,7 @@
 
 このプロジェクトは[VBUP(VOOSC)](https://space.bilibili.com/345725508)によるものです。
 
-プログラムパート：MIT
+プログラムパート：GPL
 
 <!-- 音声パート：[ホロライブ二次的創作ライセンス規約](https://www.hololive.tv/terms) -->
 

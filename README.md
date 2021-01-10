@@ -54,7 +54,7 @@
 
 本项目由 [VBUP（VOOSC)](https://space.bilibili.com/345725508) 制作。
 
-程序部分: MIT
+程序部分: GPL
 
 <!-- 音频部分: [hololive 二次创作条款](https://www.hololive.tv/terms) -->
 

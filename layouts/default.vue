@@ -138,19 +138,13 @@
             <!-- TODO -->
             <v-btn
               icon
-              href="https://github.com/voosc/mel-button"
+              href="https://github.com/vbup-osc/mel-button"
               target="_blank"
               style="vertical-align: middle;"
               rel="noreferrer"
             >
               <v-icon>{{ icons.github }}</v-icon>
             </v-btn>
-          </div>
-          <div>
-            <span>Powered by</span>
-            <a href="https://www.vercel.com/?utm_source=vbuposc&utm_campaign=oss" target="_blank" rel="noreferrer">
-              <img :src="vercel_logo" alt="vercel" height="16px" />
-            </a>
           </div>
           <div>
             <p>{{ $t('site.footer.content') }}</p>

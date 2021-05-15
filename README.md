@@ -66,10 +66,6 @@
 
 [他们的 Bilibili 频道](https://space.bilibili.com/490670563/)
 
-#### 本项目由 [Vercel](https://www.vercel.com/?utm_source=vbuposc&utm_campaign=oss) 强力驱动。
-
-[![Vercel Logo](https://cdn.jsdelivr.net/gh/paizi/vue-test/vercel.svg)](https://www.vercel.com/?utm_source=vbuposc&utm_campaign=oss)
-
 以及所有支持这个项目的朋友，你们的鼓励是我们孜孜不倦的源动力，谢谢你们。
 
 [![GitHub Contributors](https://contributors-img.web.app/image?repo=voosc/mel-button)](https://github.com/voosc/mel-button/graphs/contributors)

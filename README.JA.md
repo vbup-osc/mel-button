@@ -66,10 +66,6 @@
 
 [彼らのビリビリチャンネル](https://space.bilibili.com/490670563/)
 
-#### このプロジェクトは、[Vercel](https://vercel.com/)によって強く推進されています。
-
-[![Vercel Logo](https://cdn.jsdelivr.net/gh/paizi/vue-test/vercel.svg)](https://vercel.com)
-
 そして、このプロジェクトを支えてくださった皆様の励ましが、私たちのたゆまぬ努力の原動力となっています、ありがとうございました。
 
 [![GitHub Contributors](https://contributors-img.web.app/image?repo=voosc/mel-button)](https://github.com/voosc/mel-button/graphs/contributors)

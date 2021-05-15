@@ -138,7 +138,7 @@
             <!-- TODO -->
             <v-btn
               icon
-              href="https://github.com/voosc/mel-button"
+              href="https://github.com/vbup-osc/mel-button"
               target="_blank"
               style="vertical-align: middle;"
               rel="noreferrer"
